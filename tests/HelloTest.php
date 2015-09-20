@@ -1,9 +1,11 @@
 <?php
+use Tests\Hello;
+
 class HelloTest extends PHPUnit_Framework_TestCase
 {
     public function testHello()
     {
-        $hello = new Test/Hello();
+        $hello = new Hello();
         
         $hello->setMessage('Hello World');
         
